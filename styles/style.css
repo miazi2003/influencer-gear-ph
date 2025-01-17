@@ -8,7 +8,9 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
-
+body{
+    margin: 0px auto;
+}
 header{
     max-width: 90%;
     margin: 10px auto;
@@ -170,6 +172,74 @@ header{
 .banner-img img{
     height: 60%;
     width: 60%;
+}
+main{
+    max-width: 90%;
+    margin: 10px auto;
+    position: relative;
+}
+.collection-sec{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-sec h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.collection-container{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.collection{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.collection img{
+    width:100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.img-coll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-coll h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.img-coll h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.img-coll p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgb(120, 120, 133);
+
+}
+
+.see{
+    position: absolute;
+    right: 0%;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:rgb(224, 44, 109) ;
 }
 
 

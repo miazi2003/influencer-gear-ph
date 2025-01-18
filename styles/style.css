@@ -221,13 +221,15 @@ main {
 }
 
 .see {
-  position: absolute;
-  right: 0%;
-  bottom: -60px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: rgb(224, 44, 109);
+height: 100px;
+width: 100%;
+display: flex;
+align-items: center;
+}
+.see p{
+    position: absolute;
+    right: 0%;
+    color: rgb(224, 44, 109);
 }
 
 .featured-sec {
@@ -236,7 +238,8 @@ main {
   display: flex;
   align-items: center;
   gap: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .feature-img {
@@ -291,4 +294,31 @@ main {
   background-color: green;
   color: white;
   border: 1px solid green;
+}
+
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(10, 8, 38);
+}
+
+.footer-text{
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.footer-text h1{
+    font-size: 2remrem;
+
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
 }
